@@ -5,6 +5,8 @@ import re
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 
+
+
 cipherText = open('cipher.txt','r').read()
 charFreq = open("Char_Frequency.txt", "w")
 
